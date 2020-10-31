@@ -72,3 +72,8 @@ body
     transform: translateY(0px);
     transition-delay: calc(0.2s * var(--j));
 }
+.container .card .content img
+{
+    object-fit: cover;
+    max-width: 200px;
+}
